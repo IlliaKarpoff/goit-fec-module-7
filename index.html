@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Homework-7</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="visually-hidden">iKarpoff Web Studio - web design, SEO and digital services for your site</h1>
+    <nav class="navigation container">
+      <a href="#" class="logotype">
+        <img src="./img/logo.png" alt="Golden">
+      </a>
+      <ul class="navigation__list">
+        <li class="navigation__list-item"><a href="#home" class="navigation__list-item-link">Home</a></li>
+        <li class="navigation__list-item"><a href="#services" class="navigation__list-item-link">Services</a></li>
+        <li class="navigation__list-item"><a href="#portfolio" class="navigation__list-item-link">Portfolio</a></li>
+        <li class="navigation__list-item"><a href="#about" class="navigation__list-item-link">About</a></li>
+        <li class="navigation__list-item"><a href="#contact" class="navigation__list-item-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <p class="section-description">Lorem ipsum dolor sit amet consectetur.</p>
+        <ul class="services__list">
+          <li class="services__list-item services__commerce">
+            <h3 class="services__list-item-title">E-Commerce</h3>
+            <p class="services__list-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit architecto labore, numquam provident eaque deleniti blanditiis tempore debitis.</p>
+          </li>
+          <li class="services__list-item services__web">
+            <h3 class="services__list-item-title">Responsive Web</h3>
+            <p class="services__list-item-description">Quas dignissimos hic sed. Repudiandae laborum deserunt, alias possimus esse sint eaque impedit recusandae, quibusdam excepturi cumque necessitatibus!</p>
+          </li>
+          <li class="services__list-item services__security">
+            <h3 class="services__list-item-title">Web Security</h3>
+            <p class="services__list-item-description">Consectetur eaque omnis maiores necessitatibus quae, iure accusamus officia error dolorum dignissimos a expedita, eius quam possimus itaque?</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title contact-title">Contact us</h2>
+        <p class="section-description">Lorem ipsum dolor sit amet consectetur.</p>
+        <form class="contact__form" action="#" method="get">
+          <div class="contact__form-input-box">
+            <div class="contact__form-input-box-wrapper">
+              <input type="text" name="user-name" class="contact__form-input" placeholder="Your name *" required minlength="2" maxlength="50">
+              <input type="email" name="user-email" class="contact__form-input" placeholder="Your e-mail *" required>
+              <input type="text" name="user-subject" class="contact__form-input" placeholder="Subject">
+            </div>
+            <textarea name="user-message" class="contact__form-message" placeholder="Your message *" required minlength="10" maxlength="200"></textarea>
+          </div>
+          <button class="contact__form-btn" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
